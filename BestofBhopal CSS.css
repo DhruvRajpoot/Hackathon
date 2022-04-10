@@ -1,0 +1,1126 @@
+/* Grey Background Colour */
+
+body {
+    background-color: #ccc9c986;
+}
+
+/* All a tag link  */
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+
+a:hover {
+    /* border-bottom: 2px solid white; */
+    text-decoration: underline solid rgb(246, 17, 17) 4px;
+}
+
+/* Orange Section */
+
+.header {
+    height: 400px;
+    /* background :url('https://www.xmple.com/wallpaper/black-white-gradient-linear-5120x2880-c2-000000-ffffff-a-90-f-14.svg') no-repeat ;
+    background-size: cover; */
+    background: linear-gradient(135deg, rgba(255, 217, 181, 1) 12%, rgba(225, 150, 38, 1) 48%, rgba(225, 175, 104, 1) 89%);
+    margin-bottom: -50px;
+}
+
+/* Logo Image in Orange Section */
+
+.header span img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px 0 0 20px;
+}
+
+/* Nav bar in upper right side in orange section */
+
+.header ul {
+    display: flex;
+    float: right;
+    margin-right: 20px;
+}
+
+.header ul li {
+    padding: 15px;
+    border-radius: 10px;
+    list-style-type: none;
+    font-size: 17px;
+    transition: all .1s;
+}
+
+.header ul li:hover {
+    background-color: rgba(191, 189, 189, 0.622);
+}
+
+.header ul li>a {
+    text-decoration-thickness: 3px;
+}
+
+
+/* Dropdown List in Section element in Nav Bar */
+
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+
+.dropdowncontent a {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    display: block;
+    z-index: 3;
+}
+
+.dropdown:hover .dropdowncontent {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Paragraph in Orange section */
+
+#headertext {
+    font-style: italic;
+    font-size: 24px;
+    color: black;
+    margin: 0 150px 0 150px;
+    position: relative;
+    bottom: 200px;
+    text-align: center;
+    z-index: 1;
+}
+
+/* Food & Travel Heading */
+
+.heading {
+    text-align: center;
+    font-style: italic;
+    background-color: rgba(255, 145, 85, 0.629);
+    padding: 10px 0 10px 0;
+    margin: 0;
+    word-spacing: 3px;
+}
+
+/* Main Food Restaurant Section */
+
+.mainbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/* Food section Content box of each Restaurant */
+
+.box {
+    text-align: center;
+    width: 40%;
+    height: 100%;
+    padding-bottom: 1%;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 220, 0.682);
+    box-shadow: 1px 1px 8px 5px rgba(173, 173, 173);
+}
+
+.box:hover {
+    box-shadow: 1px 1px 10px 7px rgb(113, 113, 113);
+}
+
+/* Heading in Each Food Restaurant Section */
+
+.boxheading {
+    margin: 0;
+    padding: 10px 0 10px 0;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    background-color: rgba(245, 85, 85, 0.323);
+}
+
+/* Food Restaurant images in Section */
+
+.boximg {
+    width: 100%;
+    height: 300px;
+}
+
+/* Under Mango Tree images animation */
+
+#boximg1 {
+    animation: slider1 10s infinite ease-out;
+}
+
+@keyframes slider1 {
+    0% {
+        background-image: url('https://b.zmtcdn.com/data/pictures/4/2600174/a1ed709a69b79d40ac3468e3d8080849.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*');
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/14/2a/6f/da/this-utterly-charming.jpg');
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0a/76/3a/fd/drink-dine-unwind-under.jpg');
+        background-size: cover;
+    }
+}
+
+/* Babu Ki Kutia images animation */
+
+#boximg2 {
+    animation: slider2 10s infinite ease-out;
+}
+
+@keyframes slider2 {
+    0% {
+        background-image: url('https://content3.jdmagicbox.com/comp/bhopal/f6/0755px755.x755.110215204545.t9f6/catalogue/bapu-ki-kutia-tt-nagar-bhopal-restaurants-e5go783xd2.jpg');
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url('https://pr1.nicelocal.in/0YU4s9h1Mjjsn9qWCBmohg/640x360,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2Xo5_l9_PQY7Wz1ILkP4mLocSgxhSsI3dU9PxaOC4jERFhlPMvBvY6LntwPqNS0uRA');
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url('https://i.ytimg.com/vi/oDsk610uYkU/maxresdefault.jpg');
+        background-size: cover;
+    }
+}
+
+/* Wind n waves images animation */
+
+#boximg3 {
+    animation: slider3 10s infinite ease-out;
+}
+
+@keyframes slider3 {
+    0% {
+        background-image: url('https://scontent.fbho1-2.fna.fbcdn.net/v/t1.18169-9/10414428_1853229531568784_6068491012248718777_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=e3f864&_nc_ohc=6tVTLsa_7i8AX_hAHrh&_nc_ht=scontent.fbho1-2.fna&oh=00_AT_-TNUxwxqqZT_25ClSGVcy1FH3s1BYSd4HZPiCTwIF7w&oe=62762FE6');
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url('https://pr1.nicelocal.in/0YU4s9h1Mjjsn9qWCBmohg/640x360,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2Xo5_l9_PQY7Wz1ILkP4mLocSgxhSsI3dU9PxaOC4jERFhlPMvBvY6LntwPqNS0uRA');
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url('https://i.ytimg.com/vi/oDsk610uYkU/maxresdefault.jpg');
+        background-size: cover;
+    }
+}
+
+/* Bay Leaf Images Animation */
+
+#boximg4 {
+    animation: slider4 10s infinite ease-out;
+}
+
+@keyframes slider4 {
+    0% {
+        background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/09/9d/60/15/bay-leaf.jpg');
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url('https://b.zmtcdn.com/data/pictures/chains/8/2600208/7cb68b9212427c3f6c409f006696bc86.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*');
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url('https://b.zmtcdn.com/data/pictures/chains/8/2600208/7cb68b9212427c3f6c409f006696bc86.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*');
+        background-size: cover;
+    }
+}
+
+/* Manohar Dairy & Restaurant images animation */
+
+#boximg5 {
+    animation: slider5 10s infinite ease-out;
+}
+
+@keyframes slider5 {
+    0% {
+        background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0e/44/dc/d2/hallway-to-an-overall.jpg');
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url('https://content3.jdmagicbox.com/comp/bhopal/l9/0755px755.x755.140825161141.c5l9/catalogue/manohar-dairy-and-restaurant-m-p-nagar-bhopal-pure-veg-restaurants-xy35x.jpg');
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url('https://b.zmtcdn.com/data/pictures/chains/3/2600003/6d9d95cc04bd14b00dc1e03766a09b66.jpg');
+        background-size: cover;
+    }
+}
+
+/* La Kuchina Images animation */
+
+#boximg6 {
+    animation: slider6 10s infinite ease-out;
+}
+
+@keyframes slider6 {
+    0% {
+        background-image: url('https://www.indiaonlinepages.com/bhopal/gifs/la-kuchina-restaurant-bhopal.jpg');
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0a/76/ef/27/jehan-numa-palace-hotel.jpg');
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url('https://content3.jdmagicbox.com/comp/bhopal/c8/0755px755.x755.000076956174.h2c8/catalogue/la-kuchina-jehan-numa-palace-hotel--shamla-hills-bhopal-italian-restaurants-hcl0zdunk8.jpg');
+        background-size: cover;
+    }
+}
+
+/* Bhopal Express images animation */
+
+#boximg7 {
+    animation: slider7 10s infinite ease-out;
+}
+
+@keyframes slider7 {
+    0% {
+        background-image: url('https://b.zmtcdn.com/data/reviews_photos/960/640534b47767e7b0fc8a70773e017960_1516166317.jpg?fit=around|750:500&crop=750:500;*,*');
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/05/c8/61/61/shan-e-bhopal.jpg');
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/03/1f/6b/a1/shan-e-bhopal.jpg');
+        background-size: cover;
+    }
+}
+
+/* Hakeems Restaurant images animation */
+
+#boximg8 {
+    animation: slider8 10s infinite ease-out;
+}
+
+@keyframes slider8 {
+    0% {
+        background-image: url('https://content3.jdmagicbox.com/comp/bhopal/c8/0755px755.x755.170211173526.l4c8/catalogue/hakeem-trilanga-bhopal-mughlai-restaurants-64u2z.jpg');
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/18/f8/2b/6b/restaurant.jpg');
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url('https://b.zmtcdn.com/data/pictures/5/2600335/d1cd6cf5f887f4077ce69cb4dc40ae96.jpg?fit=around|300:273&crop=300:273;*,*');
+        background-size: cover;
+    }
+}
+
+/* Paragraph inside Food Restaurant box */
+
+.box p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    text-align: center;
+    margin: 30px 40px 40px 40px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+
+/* Order Now Button inside food restaurants section */
+
+.boxbutton {
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    background-color: rgba(232, 153, 79, 0.99);
+    margin-left: 33%;
+    margin-right: 33%;
+    transition: all .5s;
+}
+
+.boxbutton:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 3px rgb(237, 163, 26);
+    background-color: rgb(252, 193, 126);
+}
+
+/* Travel heading */
+
+#travelheading {
+    margin-top: 50px;
+}
+
+/* Main Travel section */ 
+
+/* Travel box of odd (1st , 3rd ,.......) Order */
+
+.mainbox2 {
+    width: 75%;
+    padding-bottom: 1px;
+    border-radius: 50px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: rgb(111, 224, 211);
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+/* Travel section Content box of each Places */
+
+.box2 {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+/* Heading inside each travelling place inside travel box */
+
+.box2heading {
+    text-align: center;
+    padding-top: 10px;
+    color: #0E185F;
+    text-decoration: underline;
+}
+
+/* Images animation in travel places box */
+
+.box2img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: travelimg 20s infinite linear;
+    padding: 0;
+}
+
+/* Upper lake Images Animaiton */
+
+@keyframes travelimg {
+    0% {
+        background-image: url('https://www.holidify.com/images/cmsuploads/compressed/Upper_lake_20180219174029.jpg');
+    }
+
+    33% {
+        background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0f/1b/1d/44/view-from-boat.jpg');
+    }
+
+    66% {
+        background-image: url('https://www.trawell.in/admin/images/upload/145239155Upper-Lake.jpg');
+    }
+
+    100% {
+        background-image: url('https://akm-img-a-in.tosshub.com/indiatoday/images/story/202008/From_the_States-Bhopal___s_Upp.jpeg?wf1yaOw174xLwP_d3azcFxCu9XtvJXMG&size=1200:675');
+    }
+}
+
+/* Paragraph inside odd (1st, 3rd,.... ) order travel places box */
+
+.box2content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 18px;
+    font-style: italic;
+    width: 55%;
+    text-align: right;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+/* Travel box of even (2nd ,4th, ....)  order */
+
+.mainbox3 {
+    width: 75%;
+    padding-bottom: 1px;
+    border-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #07d1e3;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.box3 {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+/* heading in travel place section */
+
+.box3heading {
+    text-align: center;
+    padding-top: 10px;
+    color: #9254C8;
+    text-decoration: underline;
+}
+
+/* images in travel places boxes */ 
+
+.box3img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: travelimg2 20s infinite linear;
+    padding: 0;
+    margin-left: 50px;
+
+}
+
+/* Tribal Museum image animation */
+
+@keyframes travelimg2 {
+    0% {
+        background-image: url('https://www.trawell.in/admin/images/upload/145239302Tribal_Museum.jpg');
+    }
+
+    33% {
+        background-image: url('https://cdn.elebase.io/173fe953-8a63-4a8a-8ca3-1bacb56d78a5/d340ec50-cf81-4b3c-8bfb-12469b0abeb4-tribal-inline-01-michaelturtle.jpg?q=75');
+    }
+
+    66% {
+        background-image: url('https://www.outlookindia.com/traveller/wp-content/uploads/2020/01/S1-PG4-Museums-of-Bhopal-04.jpg');
+    }
+
+    100% {
+        background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/d9/90/ac/img-20190317-wa0012-largejpg.jpg?w=1200&h=-1&s=1');
+    }
+}
+
+/* paragraph inside even (2nd, 4th, ......) order travel box */
+
+.box3content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 18px;
+    font-style: italic;
+    width: 55%;
+    text-align: left;
+    padding-top: 20px;
+}
+
+/* Van vihar national park Images animation */
+
+#box2img4 {
+    animation: travelimg4 20s infinite linear;
+}
+
+@keyframes travelimg4 {
+    0% {
+        background-image: url('https://static.toiimg.com/thumb/msid-83135713,width-1200,height-900,resizemode-4/.jpg');
+    }
+
+    33% {
+        background-image: url('https://static.toiimg.com/thumb/msid-76521884,width-1200,height-900,resizemode-4/.jpg');
+    }
+
+    66% {
+        background-image: url('https://www.holidify.com/images/cmsuploads/compressed/7272166126_1f823b9bd0_b_20170406210212.jpg');
+    }
+
+    100% {
+        background-image: url('https://bhopal.tourismindia.co.in/images//tourist-places/van-vihar-national-park-bhopal/van-vihar-national-park-bhopal-india-tourism-history.jpg');
+    }
+}
+
+/* Indira Gandhi Rashtriya Manav Sangrahalaya Images animation */
+
+#box2img5 {
+    animation: travelimg5 20s infinite linear;
+}
+
+@keyframes travelimg5 {
+    0% {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/22/Parol_Himalayan_Village_gate.JPG');
+    }
+
+    33% {
+        background-image: url('https://bhopal.tourismindia.co.in/images//tourist-places/indira-gandhi-rashtriya-manav-sangrahalaya-national-museum-of-mankind-bhopal/indira-gandhi-rashtriya-manav-sangrahalaya-national-museum-of-mankind-bhopal-tourism-location-address.jpg');
+    }
+
+    66% {
+        background-image: url('https://lh3.googleusercontent.com/p/AF1QipNhN-p52YQ2XFrjM9WmqhC2jAoFoXnqUG6nJSOc');
+    }
+
+    100% {
+        background-image: url('https://lh3.googleusercontent.com/p/AF1QipMhUk4Oha1UQFyBT4tuPzAiDCtxqfiD3rB1vlsS');
+    }
+}
+
+/* Moti Masjid Images Animation */
+
+#box2img6 {
+    animation: travelimg6 20s infinite linear;
+}
+
+@keyframes travelimg6 {
+    0% {
+        background-image: url('https://www.holidify.com/images/cmsuploads/compressed/1560_20190218174552jpg');
+    }
+
+    33% {
+        background-image: url('https://bhopal.tourismindia.co.in/images/places-to-visit/headers/moti-masjid-bhopal-entry-fee-timings-holidays-reviews-header.jpg');
+    }
+
+    66% {
+        background-image: url('https://www.holidify.com/images/cmsuploads/compressed/t1_20170826220645.PNG');
+    }
+
+    100% {
+        background-image: url('https://kevinstandagephotography.files.wordpress.com/2018/03/ksp_3145-2.jpg');
+    }
+}
+
+/* Rani Kamlapati mahal Images Animation */
+
+#box2img7 {
+    animation: travelimg7 20s infinite linear;
+}
+
+@keyframes travelimg7 {
+    0% {
+        background-image: url('https://d35y6w71vgvcg1.cloudfront.net/media/2020/12/rani-kamlapati_730X365.jpg');
+    }
+
+    33% {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/ec/Kamalapati_Mahal_Bhopal.jpg');
+    }
+
+    66% {
+        background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/05/b5/29/39/rani-mahal.jpg');
+    }
+
+    100% {
+        background-image: url('https://1.bp.blogspot.com/_KeVQ1ylzj5E/TAEynntngHI/AAAAAAAAMq4/oaAW5WBTIX4/s1600/IMG_0039.JPG');
+    }
+}
+
+.mainbox2:hover,
+.mainbox3:hover {
+    box-shadow: 1px 1px 5px 5px rgb(72, 99, 152);
+}
+
+/* footer section in Teal colour */
+
+.footer {
+    height: 300px;
+    background-color: #1e5e65;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.footerinside {
+    width: 25%;
+}
+
+#footer1b{
+    display: none;
+}
+
+/* Paragraph inside footer section */
+
+#footer3 {
+    width: 40%;
+    margin-top: 4%;
+    margin-right: 5%;
+    font-size: 20px;
+    font-style: italic;
+    word-spacing: 2px;
+    color: #00FFC6;
+}
+
+/* Links in footer section */
+
+.footerinside ul li {
+    list-style-type: none;
+    padding: 4px;
+}
+
+.footerinside ul li a {
+    font-size: 18px;
+    text-decoration-thickness: 3px;
+}
+
+/* Contact & Quick Links in footer section */
+
+.contactquick {
+    text-decoration: none;
+    color: rgb(239, 184, 19);
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.contactquick:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+/* Last section containing Social Media Images */
+
+.social {
+    background-color: #062C30;
+    display: flex;
+    justify-content: center;
+}
+
+.social ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.social ul li {
+    margin-right: 20%;
+}
+
+.social ul li:hover img {
+    box-shadow: .1px .1px 2px 2px skyblue;
+}
+
+.social ul li img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Code for TABLET View */
+
+@media (min-width:501px) and (max-width:900px) {
+
+    a:hover {
+        /* border-bottom: 2px solid white; */
+        text-decoration: underline solid rgb(246, 17, 17) 2px;
+    }
+
+/* Orange Section in TABLET view*/
+
+    .header{
+        height: 250px;
+        margin-bottom: -50px;
+    }
+
+/* Nav bar in upper right side in orange section in TABLET view */
+
+    .header ul li{
+        font-size: 13px;
+        padding: 10px;
+    }
+
+/* Paragraph in Orange section in TABLET view */
+
+    #headertext{
+        font-size: 13px;
+        bottom: 90px;
+        margin: 0 100px 0 100px;
+    }
+
+/* Food & Travel Heading in TABLET view */
+
+    .heading{
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+/* Main Food Restaurant Section in TABLET view */
+
+    .mainbox{
+        margin-top: 5px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+/* Food section Content box of each Restaurant in TABLET view */
+
+    .box{
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 4%;
+    }
+
+/* Heading in Each Food Restaurant Section in TABLET view */
+
+    .boxheading{
+        font-size: 15px;
+    }
+
+/* Food Restaurant images in Section in TABLET view */
+
+    .boximg{
+        height: 200px;
+    }
+
+/* Paragraph inside Food Restaurant box in TABLET view */
+
+    .box p{
+        font-size: 15px;
+        margin: 15px 40px 20px 40px;
+    }
+
+/* Order Now Button inside food restaurants section in TABLET view */
+
+    .boxbutton{
+        font-size: 15px;
+        padding: 8px 20px 8px 20px;
+    }
+
+/* Travel heading in TABLET view */
+
+    .travelheading{
+        font-size: 18px;
+    }
+
+/* Main Travel section in TABLET view */ 
+
+/* Travel box of odd (1st , 3rd ,.......) Order in TABLET view */
+
+    .mainbox2{
+        width: 85%;
+        margin-left: 8%;
+    }
+
+/* Heading inside each travelling place inside travel box in TABLET view */
+
+    .box2heading{
+        font-size: 16px;
+    }
+
+/* Images animation in travel places box in TABLET view */
+
+    .box2img{
+        width: 130px;
+        height: 130px;
+        margin-left: 20px;
+        position: relative;
+        top: 20px;
+    }
+
+/* Paragraph inside odd (1st, 3rd,.... ) order travel places box in TABLET view */
+
+    .box2content{
+        font-size: 14px;
+        margin-left: 10px;
+        padding-bottom: 10px;
+    }
+
+/* Travel box of even (2nd ,4th, ....)  order in TABLET view */
+
+    .mainbox3{
+        width: 85%;
+        margin-left: 8%;
+    }
+
+/* heading in travel place section in TABLET view */
+
+    .box3heading{
+        font-size: 16px;
+    }
+
+/* images in travel places boxes in TABLET view */ 
+
+    .box3img{
+        width: 130px;
+        height: 130px;
+        margin-left: 20px;
+        position: relative;
+        top: 20px;
+    }
+
+/* paragraph inside even (2nd, 4th, ......) order travel box in TABLET view */
+
+    .box3content{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+/* footer section in Teal colour in TABLET view */
+
+    .footer{
+        height: 200px;
+        margin-top: 40px;
+        padding: 3px;
+    }
+
+/* Paragraph inside footer section in TABLET view */
+
+    #footer3{
+        font-size: 10px;
+        width: 50%;
+        margin-right: 3%;
+        word-spacing: 1px;
+        margin-top: 10%;
+    }
+
+/* Links in footer section in TABLET view */
+
+    .footerinside ul li {
+        padding: 2px;
+    }
+
+    .footerinside ul li a {
+        font-size: 11px;
+    }
+
+/* Hover in Contact & Quick Links in footer section in TABLET view */
+
+.contactquick:hover {
+    text-decoration-thickness: 2px;
+}
+
+/* Social media images  in last in TABLET view */
+
+    .social ul li {
+        margin-right: 15%;
+    }
+
+    .social ul li img {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+}
+
+/* Code for MOBILE View in TABLET view */
+
+@media (min-width:1px) and (max-width:500px){
+
+/* LOGO in orange section in MOBILE view */
+
+    .header span img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px 0 0 20px;
+    }
+    
+    a:hover {
+        text-decoration: underline solid rgb(246, 17, 17) 2px;
+    }
+
+    /* Orange Section  in MOBILE view */
+
+    .header{
+        height: 200px;
+        margin-bottom: -20px;
+    }
+
+/* Nav bar in upper right side in orange section in MOBILE view  */
+
+    .header ul li{
+        font-size: 8px;
+        padding: 10px;
+    }
+
+/* Paragraph in Orange section in MOBILE view  */
+
+    #headertext{
+        font-size: 10px;
+        margin: 0 50px 0 50px;
+        bottom: 110px;
+    }
+
+/* Food & Travel Heading in MOBILE view  */
+
+    .heading{
+        margin-top: -10%;
+        margin-bottom: 15px;
+        font-size: 10px;
+    }
+
+/* Main Food Restaurant Section in MOBILE view  */
+
+    .mainbox{
+        margin-top: 5px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+/* Food section Content box of each Restaurant in MOBILE view  */
+
+    .box{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 4%;
+    }
+
+/* Heading in Each Food Restaurant Section in MOBILE view  */
+
+    .boxheading{
+        font-size: 8px;
+    }
+
+/* Food Restaurant images in Section in MOBILE view  */
+
+    .boximg{
+        height: 150px;
+    }
+
+/* Paragraph inside Food Restaurant box in MOBILE view  */
+
+    .box p{
+        font-size: 8px;
+        margin: 15px 40px 20px 40px;
+    }
+
+/* Order Now Button inside food restaurants section in MOBILE view  */
+
+    .boxbutton{
+        font-size: 8px;
+        padding: 8px 10px 8px 10px;
+    }
+
+/* Travel heading in MOBILE view  */
+
+    .travelheading{
+        font-size: 10px;
+    }
+
+/* Main Travel section in MOBILE view  */ 
+
+/* Travel box of odd (1st , 3rd ,.......) Order in MOBILE view  */
+
+    .mainbox2{
+        width: 85%;
+        margin-left: 8%;
+    }
+
+/* Heading inside each travelling place inside travel box in MOBILE view  */
+
+    .box2heading{
+        font-size: 8px;
+    }
+
+/* Images animation in travel places box in MOBILE view  */
+
+    .box2img{
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+        position: relative;
+        top: 10px;
+    }
+
+/* Paragraph inside odd (1st, 3rd,.... ) order travel places box in MOBILE view  */
+
+    .box2content{
+        font-size: 8px;
+        margin-left: 7px;
+        padding-bottom: 7px;
+    }
+
+/* Travel box of even (2nd ,4th, ....)  order in MOBILE view  */
+
+    .mainbox3{
+        width: 85%;
+        margin-left: 8%;
+    }
+
+/* heading in travel place section in MOBILE view  */
+
+    .box3heading{
+        font-size: 8px;
+    }
+
+/* images in travel places boxes in MOBILE view  */ 
+
+    .box3img{
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+        position: relative;
+        top: 10px;
+    }
+
+/* paragraph inside even (2nd, 4th, ......) order travel box in MOBILE view  */
+
+    .box3content{
+        font-size: 8px;
+        padding-bottom: 10px;
+    }
+
+/* footer section in Teal colour in MOBILE view  */
+
+    .footer{
+        height: 135px;
+        margin-top: 5px;
+        padding: 5px;
+    }
+
+/* Footer deactive in mobile view in MOBILE view  */
+
+    #footer1a{
+        display: none;
+    }
+
+/* Footer active in mobile view in MOBILE view  */
+
+    #footer1b{
+        display: block;
+    }
+
+/* Paragraph inside footer section in MOBILE view  */
+
+    #footer3{
+        font-size: 7px;
+        width: 40%;
+        margin-right: 2%;
+        margin-top: 10%;
+        word-spacing: .5px;
+    }
+
+/* Links in footer section in MOBILE view  */
+
+    #footer1b ul li a , #footer2 ul li a{
+        font-size: 6px; 
+    }
+
+/* Last section caontaining Social media images in MOBILE view  */ 
+
+    .social {
+    background-color: #062C30;
+    }
+
+/* Hover in Contact & Quick Links in footer section in MOBILE view  */
+
+    .contactquick:hover {
+        text-decoration-thickness: 2px;
+    }
+
+/* Social media images in last in MOBILE view */
+
+    .social ul li {
+        margin-right: 15%;
+    }
+    .social ul li img {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+}
